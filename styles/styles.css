@@ -1,0 +1,171 @@
+
+/* Main styles */
+
+.resume-container {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 50px;
+  }
+  
+  .container-custom {
+    padding: 50px 50px 0 50px;
+  }
+  
+  .container-fluid {
+    background-color: #D3B427;  
+    padding: 50px;
+  }
+  
+  
+  /* Common section styles */
+  
+  .contacts-section-header,
+  .about-section-header,
+  .skills-section-header,
+  .achievements-section-header,
+  .work-experience-section-header,
+  .professional-section-header,
+  .publications-section-header {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .work-experience-section-item-header span:last-child,
+  .achievements-section-item-date,
+  .publications-section-item-date {
+    color: rgba(0,0,0,.4);
+  }
+  
+  .achievements-section-item-header,
+  .publications-section-item-header {
+    font-weight: 600;
+  }
+  
+  .about-section-text,
+  .contacts-section-item-link {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
+  .professional-section-text,
+  .achievements-section-item-text,
+  .publications-section-item-text {
+    margin-top: 10px
+  }
+  
+  .additional-section-qr-code,
+  .author-avatar-img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  
+  /* Author section styles */
+  
+  .author-section-container {
+    padding: 50px; 
+  }
+  
+  .author-avatar-container img {
+    border-radius: 50%;
+  }
+  
+  .author-section-info-surname {
+    color: #D3B427;
+  }
+  
+  .author-section-info-header {
+    line-height: 100px;
+    font-size: 58px;
+    font-weight: 700;
+  }
+  
+  
+  /* About section styles */
+  
+  .about-section-container {
+    padding: 30px auto;
+  }
+  
+  
+  /* Skills section styles */
+  
+  .skills-section-item {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+  } 
+  
+  
+  /* Contacts section styles */
+  
+  .contacts-section-item {
+    margin-bottom: 10px;
+  }
+  
+  .contacts-section-item-text {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+  }
+  
+  
+  /* Work-experience section styles */
+  
+  .work-experience-section-item-header span:not(:last-child) {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+  }
+  
+  .work-experience-section-item {
+    margin-top: 10px;
+  }
+  
+  .work-experience-section-item-text {
+    margin-top: 5px
+  }
+  
+  
+  /* Achievements section styles */
+  
+  .achievements-section-container {
+    padding: 30px;
+  }
+  
+  
+  /* Professional section styles */
+  
+  .professional-interests-section-container {
+    background-color: lightseagreen;
+    padding: 30px;
+    height: 100px;
+  }
+  
+  
+  /* Additional section styles */
+  
+  .additional-info-section-container {
+    background-color: lightskyblue;
+    padding: 30px;
+  }
+  
+  .additional-section-social-container {
+    display: inline-block;
+  }
+  
+  .additional-section-social-container img {
+    margin-left: 15px;
+  }
+  
+  
+  /* Publications section styles */
+  
+  .publications-section-container {
+    margin-bottom: 50px;
+  }
+  
