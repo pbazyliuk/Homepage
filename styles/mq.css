@@ -1,4 +1,13 @@
-@media screen and (min-width:480px) and (max-width:576px) {
+@media screen and (max-width:575px) {
+  .container {
+    padding: 0;
+    min-width: 480px;
+  }
+
+  .resume-container {
+    margin: 0;
+  }
+  
   .work-experience-section-container,
   .achievements-section,
   .publications-section-header,
@@ -6,11 +15,12 @@
     margin-top: 50px;
   }
 
-  .additional-section-container {
+  .additional-section-container,
+  .author-avatar-container {
       text-align: center;
   }
 
-  .author-section-container div:last-child {
+  .author-section-container div {
     float: none !important;
     text-align: center;
   }
@@ -20,7 +30,7 @@
   }
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media screen and (min-width:576px) and (max-width:767px) {
     .work-experience-section-container,
     .achievements-section,
     .publications-section-header,
@@ -33,7 +43,7 @@
     }
   }
   
-  @media screen and (min-width:768px) and (max-width:992px) {
+  @media screen and (min-width:768px) and (max-width:991px) {
     .work-experience-section-container,
     .achievements-section,
     .publications-section-header,
