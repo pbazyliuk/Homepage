@@ -80,6 +80,11 @@
     font-size: 58px;
     font-weight: 700;
   }
+
+  .author-section-info-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
   
   
   /* About section styles */
